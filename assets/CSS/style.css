@@ -154,7 +154,7 @@ span {
   transition: 0.4s;
 }
 
-.container .hero-text .image {
+.container .hero-text .image-pp {
   justify-content: flex-end;
   display: flex;
   align-items: flex-end;
@@ -348,7 +348,7 @@ span {
 .swiper-slide img {
   width: 100%;
   border: 2px solid #f54900;
-  padding: 6px 6px;
+  padding: 5px 5px;
 }
 
 .swiper .swiper-button-prev,
@@ -534,7 +534,7 @@ span {
 /* ============== END SERTIFIKAT ============== */
 
 /* ================= Footer ================= */
-footer{
+footer {
   background-color: #12151b;
 }
 
@@ -557,7 +557,6 @@ footer{
   background: #f54900;
   transition: 0.4s;
 }
-
 
 .container-2 {
   text-align: center;
@@ -587,18 +586,17 @@ nav .nav-list-1 li a:hover {
   transition: 0.4s;
 }
 
-
-.contact-1{
+.contact-1 {
   text-align: center;
   margin-left: 35px;
   margin-bottom: 5px;
 }
 
-.container-copy{
+.container-copy {
   text-align: center;
 }
 
-.copy{
+.copy {
   font-size: 0.8em;
 }
 /* Footer */
@@ -631,3 +629,1045 @@ html {
 }
 
 /* button top */
+
+@media screen and (max-width: 1024px) {
+  .container .hero-text .image-pp {
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+    margin-top: -380px;
+    margin-right: -50px;
+    display: none;
+  }
+
+  .container-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-2 {
+    width: 100%;
+    height: 110%;
+    min-height: 130vh;
+    background-color: #12151b;
+  }
+
+  .button-more {
+    list-style-type: none;
+    border: none;
+    border-radius: none;
+    background-color: #f54900;
+    padding: 7px 11px;
+    width: 100px;
+    text-align: center;
+    margin-left: 337px;
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav .nav-list li a {
+    display: inline-block;
+    color: #eee;
+    margin-left: 35px;
+    font-size: 19px;
+    font-weight: 500;
+    display: none;
+  }
+
+  .teks-123 {
+    font-size: 2.3em;
+    font-weight: 50 0;
+    margin-right: 650px;
+  }
+
+  .button-more {
+    list-style-type: none;
+    border: none;
+    border-radius: none;
+    background-color: #f54900;
+    padding: 7px 11px;
+    width: 100px;
+    text-align: center;
+    margin-left: 337px;
+    font-size: 1em;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+  .hero-4 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -59px;
+}
+
+.hero-4 p {
+  font-size: 1.1em;
+  margin-left: -59px;
+}
+
+.hero-4 {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #12151b;
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media screen and (max-width:768px){
+  
+  /* ABOUT */
+  .hero-1 {
+    width: 100%;
+    height: 100%;
+    min-height: 135vh;
+    background-color: #12151b;
+  }
+
+  .about h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+  }
+  
+  .about h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .container-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .foto {
+    margin-right: 30px;
+    margin-left: 80px;
+    margin-top: -16px;
+    padding: 7px 7px;
+    width: 300px;
+    border: 2px solid #f54900;
+  }
+  
+  .about-deskripsi {
+    flex: 2;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 16px;
+    color: #eee;
+    padding-right: 50px;
+  }
+
+  /* SCHOOL */
+  .hero-2 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #12151b;
+  }
+  
+  .container-school {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+  }
+  
+  .hero-2 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+  }
+  
+  .hero-2 h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .hero-2 p {
+    font-size: 1em;
+    margin-left: 15px;
+  }
+  
+  .container-sekolah {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid #eee;
+    padding: 6px;
+  }
+  
+  .tulisan {
+    list-style-type: none;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .tulisan a {
+    color: #eee;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .tulisan a:hover {
+    font-size: 19px;
+    font-weight: 700;
+    color: #f54900;
+    transition: 0.4s;
+  }
+   
+  /* PROJECT */
+  .hero-3 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #12151b;
+    display: flex;
+  }
+  
+  .hero-3 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+  }
+  
+  .hero-3 h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .hero-3 p {
+    font-size: 1em;
+    margin-left: 15px;
+  }
+  
+  .container-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .swiper {
+    width: 500px;
+    height: 500px;
+    flex: 1;
+    margin: 10px;
+    margin-left: 140px;
+    margin-top: 55px;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    border: 2px solid #f54900;
+    padding: 5px 5px;
+  }
+  
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    color: #12151b;
+  }
+  
+  .swiper .swiper-pagination-bullet-active {
+    background: #f54900;
+  }
+  
+  /* Button */
+.button-more {
+  list-style-type: none;
+  border: none;
+  border-radius: none;
+  background-color: #f54900;
+  padding: 7px 11px;
+  width: 100px;
+  text-align: center;
+  margin-left: 1195px;
+  margin-top: 25px;
+  font-size: 1em;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.button-edit {
+  padding: 6px 10px;
+  margin-top: 15px;
+}
+
+.button-more:hover {
+  border: 2px solid #f54900;
+  background-color: transparent;
+  transition: 0.3s;
+  color: #f54900;
+}
+
+
+  /* CERTIFICATE */
+
+  .hero-4 {
+    width: 100%;
+    height: 100%;
+    min-height: 130vh;
+    background-color: #12151b;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-4 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 5px;
+  }
+  
+  .hero-4 h2::after {
+    content: "";
+    display: block;
+    width: 95px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .hero-4 p {
+    font-size: 1em;
+    margin-left: 5px;
+  }
+  
+  /* Sertifikat */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin-top: 57px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 750px;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Button */
+  .button-more-1 {
+    list-style-type: none;
+    border: none;
+    border-radius: none;
+    background-color: #f54900;
+    padding: 10px 16px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-edit-1 {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .button-more-1:hover {
+    border: 2px solid #f54900;
+    background-color: transparent;
+    transition: 0.3s;
+    color: #f54900;
+  }
+  
+}
+
+@media screen and (max-width:425px) {
+  
+/* ABOUT */
+.foto {
+  margin-right: 30px;
+  margin-left: 16px;
+  margin-top: -16px;
+  padding: 7px 7px;
+  width: 240px;
+  border: 2px solid #f54900;
+}
+
+  .about-deskripsi {
+    flex: 2;
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 16px;
+    color: #eee;
+    padding-right: 50px;
+  }
+
+  /* PROJECT */
+  .hero-3 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #12151b;
+    display: flex;
+  }
+  
+  .hero-3 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+  }
+  
+  .hero-3 h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .hero-3 p {
+    font-size: 1em;
+    margin-left: 15px;
+    max-width: 405px;
+  }
+
+  .container-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .swiper {
+    width: 365px;
+    height: 365px;
+    flex: 1;
+    margin: 10px;
+    margin-left: 50px;
+    padding-top: 55px;
+  }
+  
+  .swiper-slide img {
+    width: 65%;
+    border: 2px solid #f54900;
+    padding: 4px 4px;
+  }
+  
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    color: #12151b;
+    display: none;
+
+  }
+  
+  .swiper .swiper-pagination-bullet-active {
+    background: #f54900;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 12px;
+    left: 0;
+    width: 65%;
+}
+  
+/* CERTIFICATE */
+
+.hero-4 {
+  width: 100%;
+  height: 100%;
+  min-height: 95vh;
+  background-color: #12151b;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-4 h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f54900;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 15px;
+}
+
+.hero-4 h2::after {
+  content: "";
+  display: block;
+  width: 95px;
+  height: 3px;
+  background: #eee;
+  bottom: 0;
+}
+
+.hero-4 p {
+  font-size: 1em;
+  margin-left: 15px;
+}
+
+/* Sertifikat */
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 57px;
+  margin-left: 14px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 400px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Button */
+.button-more-1 {
+  list-style-type: none;
+  border: none;
+  border-radius: none;
+  background-color: #f54900;
+  padding: 10px 16px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* FOOTER */
+/* ================= Footer ================= */
+footer {
+  background-color: #12151b;
+}
+
+.sosial-2 a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: rgba(225, 225, 225, 0.1);
+}
+
+.sosial-2 a:hover {
+  transform: scale(1.1);
+  background: #f54900;
+  transition: 0.4s;
+}
+
+.container-2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+nav .nav-list-1 {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+nav .nav-list-1 li {
+  display: inline-block;
+}
+
+nav .nav-list-1 li a {
+  display: inline-block;
+  color: #717171;
+  margin-left: 13px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+nav .nav-list-1 li a:hover {
+  color: #f54900;
+  transition: 0.4s;
+}
+
+.contact-1 {
+  text-align: center;
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+
+.container-copy {
+  text-align: center;
+}
+
+.copy {
+  font-size: 0.8em;
+}
+/* Footer */
+}
+
+@media screen and (max-width:375px) {
+
+  .hero-2 p {
+    font-size: 0.9em;
+    margin-left: 15px;
+}
+
+  /* PROJECT */
+  .hero-3 {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #12151b;
+    display: flex;
+  }
+  
+  .hero-3 h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f54900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+  }
+  
+  .hero-3 h2::after {
+    content: "";
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #eee;
+    bottom: 0;
+  }
+  
+  .hero-3 p {
+    font-size: 0.9em;
+    margin-left: 15px;
+    max-width: 405px;
+}
+
+  .container-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .swiper {
+    width: 310px;
+    height: 310px;
+    flex: 1;
+    margin: 10px;
+    margin-left: 50px;
+    padding-top: 55px;
+  }
+  
+  .swiper-slide img {
+    width: 65%;
+    border: 2px solid #f54900;
+    padding: 4px 4px;
+  }
+  
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    color: #12151b;
+    display: none;
+
+  }
+  
+  .swiper .swiper-pagination-bullet-active {
+    background: #f54900;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 12px;
+    left: 0;
+    width: 65%;
+}
+  
+/* CERTIFICATE */
+
+.hero-4 {
+  width: 100%;
+  height: 100%;
+  min-height: 90vh;
+  background-color: #12151b;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-4 h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: #f54900;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 34px;
+}
+
+.hero-4 h2::after {
+  content: "";
+  display: block;
+  width: 95px;
+  height: 3px;
+  background: #eee;
+  bottom: 0;
+}
+
+.hero-4 p {
+  font-size: 0.9em;
+  margin-left: 34px;
+  max-width: 370px;
+}
+
+/* Sertifikat */
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 57px;
+  margin-left: 14px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 350px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Button */
+.button-more-1 {
+  list-style-type: none;
+  border: none;
+  border-radius: none;
+  background-color: #f54900;
+  padding: 10px 16px;
+  width: 100px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* FOOTER */
+/* ================= Footer ================= */
+footer {
+  background-color: #12151b;
+}
+
+.sosial-2 a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: rgba(225, 225, 225, 0.1);
+}
+
+.sosial-2 a:hover {
+  transform: scale(1.1);
+  background: #f54900;
+  transition: 0.4s;
+}
+
+.container-2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+nav .nav-list-1 {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+nav .nav-list-1 li {
+  display: inline-block;
+}
+
+nav .nav-list-1 li a {
+  display: inline-block;
+  color: #717171;
+  margin-left: 13px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+nav .nav-list-1 li a:hover {
+  color: #f54900;
+  transition: 0.4s;
+}
+
+.contact-1 {
+  font-size: 0.8em;
+  text-align: center;
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+
+.container-copy {
+  text-align: center;
+}
+
+.copy {
+  font-size: 0.8em;
+}
+/* Footer */
+}
+
+@media screen and (max-width:320px) {
+  
+  
+}
+
+
